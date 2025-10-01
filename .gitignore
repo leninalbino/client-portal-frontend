@@ -86,7 +86,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public - DO NOT ignore public folder in React/Vite projects!
 
 # Storybook build outputs
 .out
