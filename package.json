@@ -24,10 +24,12 @@
     "yup": "^1.7.1"
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite --host --port 3000",
+    "dev": "vite --host --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "start:clean": "vite --host --port 3000 --force"
   },
   "eslintConfig": {
     "extends": [

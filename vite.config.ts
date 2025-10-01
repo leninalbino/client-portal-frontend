@@ -9,7 +9,10 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
-    open: true
+    open: true,
+    fs: {
+      strict: false
+    }
   },
   resolve: {
     alias: {
@@ -18,5 +21,6 @@ export default defineConfig({
   },
   build: {
     outDir: 'build'
-  }
+  },
+  base: '/'
 })
